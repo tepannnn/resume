@@ -163,15 +163,35 @@ body
   padding: 40px;
 }
 
+.profileText1 h2 span .icon1
+{
+  display: inline-block;
+  width: 30px;
+  font-size: 16px;
+}
+
+.Text
+{
+  margin-top: 10px;
+}
+
 .line1
 {
   margin-top: 20px;
 }
 
-.profileText1 h2 span .icon
+.text1 
 {
-  display: inline-block;
-  width: 30px;
-  font-size: 16px;
+  position: relative;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+.p1
+{
+  position: relative;
+  margin: 0 50px;
+  margin-top: 10px;
+  padding: 10px;
 }
 
