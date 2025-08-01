@@ -194,40 +194,47 @@ body
   padding: 5px;
 }
 
-.zoom-text {
+.zoom-text 
+{
   transition: transform 0.3s ease, background-color 0.3s ease;
   display: inline-block;
   cursor: pointer;
 }
 
-.zoom-text:hover, .zoom-text:focus {
+.zoom-text:hover, .zoom-text:focus 
+{
   transform: scale(1.1);
   background-color: rgba(255, 255, 0, 0.1);
   outline: none;
 }
 
-.skills {
+.skills 
+{
   margin-top: 25px;
 }
 
-.skills ul {
+.skills ul 
+{
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.skills li {
+.skills li 
+{
   margin-bottom: 10px;
 }
 
-.skill-name {
+.skill-name 
+{
   display: inline-block;
   width: 120px;
   color: black;
   font-size: 14px;
 }
 
-.bar {
+.bar 
+{
   display: inline-block;
   width: 60%;
   height: 10px;
@@ -237,23 +244,28 @@ body
   vertical-align: middle;
 }
 
-.fill {
+.fill 
+{
   display: block;
   height: 100%;
   background: #1e3c72;
   border-radius: 2px 0 0 5px;
 }
 
-.fill.html {
+.fill.html 
+{
   width: 40%;
 }
-.fill.css {
+.fill.css 
+{
   width: 40%;
 }
-.fill.java {
+.fill.java 
+{
   width: 30%;
 }
-.fill.js {
+.fill.js 
+{
   width: 25%;
 }
 
@@ -262,10 +274,78 @@ body
   margin-top: 31px;
 }
 
-.proXexp {
+.proXexp 
+{
   margin-top: 25px;
 }
 
-.zoom-text1 {
+.zoom-text1 
+{
   margin-top: 10px;
 }
+
+textarea{
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+button 
+{
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover 
+{
+  background-color: #0056b3;
+}
+
+.comment 
+{
+  background: #f8f9fa;
+  padding: 10px 15px;
+  border-left: 4px solid #007bff;
+  margin-top: 20px;
+  border-radius: 4px;
+  color: #333;
+}
+
+.download-button 
+{
+  margin-top: 0;
+  text-align: center;
+}
+
+.download-button button 
+{
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.download-button button:hover 
+{
+  background-color: #0056b3;
+}
+
+.button-group 
+{
+  display: flex;
+  gap: 340px;
+}
+
