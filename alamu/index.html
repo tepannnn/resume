@@ -136,14 +136,35 @@
 
       <h2 class="proXexp">Projects or Experience</h2>
 
-      <p class="zoom-text1" tabindex="0">Throughout my academic journey, we worked on a small project for our Systems Analysis and Design (SAD) subject, 
+      <div class="zoom-text1">
+      <p class="zoom-text" tabindex="0">Throughout my academic journey, we worked on a small project for our Systems Analysis and Design (SAD) subject, 
         which we called an <b>"VapeVault: A Inventory Monitoring Web-Based System."</b> This system was designed to monitor the inventory of a shop. 
         We are proud to have successfully defended our thesis during the SAD Defense. We also utilized multiple software tools throughout the development process.
       </p>
+      </div>
 
       <hr class="line2">
+
+     <h2>Comment Section</h2>
+<textarea id="comment" placeholder="Write your comment here..."></textarea>
+
+<div id="output"></div>
+
+<div class="button-group">
+  <button onclick="addComment()">Submit</button>
+  <a href="resume.pdf" download>
+    <button>Download Resume</button>
+  </a>
+</div>
+
+ <script>
+    function submitComment() {
+      var comment = document.getElementById("comment").value;
       
-    </div>
-  </div>
+      localStorage.setItem("comment", comment);
+    
+      window.location.href = "comments.html";
+    }
+  </script>
 </body>
 </html>
